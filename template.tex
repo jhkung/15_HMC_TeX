@@ -55,27 +55,68 @@ THIS PART IS FOR INTRODUCTION
 %the program chair.
 
 \section{Previous Work}
-text
+In this section, we will introduce recent machine learning techniques using different types of neural network and hardware implemenation based on ASIC or FPGA. 
+
 \subsection{Neural network for machine learning} 
-text
+1. Why do we need different NNs other than Convolutional NNs?
+
+2. How can we classify different NNs
+
+3. What is the characteristic of diff. NNs (pro - cons) or appropriate application
+
+Can we compute number of basic computations such as multiplications or additions for some applications? 
+
+Maybe table to compare diff NNs will be good.
 \subsection{Neuromorphic hardware implementation}
 text
 
+
 \section{Reconfigurable Neuromorphic Architecture}
 text
-
 \subsection{External memory}
 text
 \subsection{Cache memory}
 text
 \subsection{Processing elements}
-text
+As we explained before, main basic operations for NNs are multiplication, addition, activation function, sampling ... So we will prepare all functions to cover different neural networks. Then controlling the data from memory to processing elements can implement different neural networks.
 \subsection{Network-on-chip}
 text
 
+\section{Traffic Analysis on Network-on-Chip}
+With conventional DRAM interface (low bandwidth)
+
+\section{Hybrid Memory Cube}
+hmc introduce
+\subsection{Architecture of HMC}
+hmc introduce
+\subsection{Intranetwork of HMC through logic die}
+hmc introduce
+\subsection{Internetwork of HMC through high speed links}
+hmc introduce
+\subsection{Neurocube using Intranetwork of HMC}
+Processor-in-Memory (PIM) design hmc introduce
+Area/power/thermal limitation
+
+\section{Traffic Analysis of NeuroCube}
+Introduce improvement of NeuroCube with HMC with high bandwidth
+
+
+\section{Conclusions}
+conclusions
+
+
+\bstctlcite{bstctl:etal, bstctl:nodash, bstctl:simpurl}
+\bibliographystyle{IEEEtranS}
+\bibliography{references}
+
+\end{document}
 
 
 
+
+
+
+%%%%%%%%%%%%%  MICRO TEMPLATE %%%%%%%%%%%%%%%%%
 %For MICRO-47, we are instituting a new paper submission format
 %and reference requirements. All submissions are allowed a maximum 
 %of 11 pages of single-spaced two-column text content according to
@@ -229,9 +270,5 @@ text
 %\href{http://www.microarch.org/micro47/}{http://www.microarch.org/micro47/}
 %in mid April. 
 
-\bstctlcite{bstctl:etal, bstctl:nodash, bstctl:simpurl}
-\bibliographystyle{IEEEtranS}
-\bibliography{references}
 
-\end{document}
 

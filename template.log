@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.1)  1 APR 2015 20:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.1)  1 APR 2015 21:01
 entering extended mode
-**C:/Users/Duckhwan/Desktop/15_HMC_TeX/template.tex
-(C:/Users/Duckhwan/Desktop/15_HMC_TeX/template.tex
+**C:/Users/Duckhwan/Dropbox/WORK/2015/15_HMC_TeX_Alienware/template.tex
+(C:/Users/Duckhwan/Dropbox/WORK/2015/15_HMC_TeX_Alienware/template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +13,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\Duckhwan\Desktop\15_HMC_TeX\jpaper.cls
+(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\jpaper.cls
 Document Class: jpaper 2012/04/23 Micro submission template
-(C:\Users\Duckhwan\Desktop\15_HMC_TeX\etoolbox.sty
+(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
@@ -369,7 +369,7 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks20
 ))
-(C:\Users\Duckhwan\Desktop\15_HMC_TeX\couriers.sty
+(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\couriers.sty
 Package: couriers 2004/07/10 Scaled Courier (HS) 
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
@@ -768,7 +768,7 @@ Option `squaren' provided!
 Package: ulem 2012/05/18
 \ULdepth=\dimen151
 )
-(C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.aux)
+(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -878,8 +878,8 @@ LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
 
-(C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.out)
-(C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.out)
+(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.out)
+(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.out)
 \@outlinefile=\write3
 
 Option `squaren' provided! 
@@ -935,8 +935,13 @@ LaTeX Warning: No \author given.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
-(C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.bbl
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 60.
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+\T1/ptm/m/n/10 (+20) Processor-in-Memory (PIM) de-sign hmc in-tro-duce
+ []
+
+(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
@@ -944,33 +949,35 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
- (C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+
+(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: ACB54732307E15E3348B7E406D415FA1;1501.
+(rerunfilecheck)             Checksum: 7FA490C3F1C4298ACAEAE1E4C64AC9D1;3132.
  ) 
 Here is how much of TeX's memory you used:
- 14406 strings out of 493921
- 210084 string characters out of 3147274
+ 14425 strings out of 493921
+ 210691 string characters out of 3147274
  333836 words of memory out of 3000000
- 17434 multiletter control sequences out of 15000+200000
- 47922 words of font info for 105 fonts, out of 3000000 for 9000
+ 17442 multiletter control sequences out of 15000+200000
+ 48052 words of font info for 107 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,9n,40p,811b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,9n,40p,831b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on template.pdf (1 page, 50774 bytes).
+Output written on template.pdf (1 page, 56686 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 34377 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 34441 words of extra memory for PDF output out of 35830 (max. 10000000)
 

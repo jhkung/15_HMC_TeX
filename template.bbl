@@ -21,10 +21,9 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{micro47}
-\BIBentryALTinterwordspacing
-K.~Flautner \emph{et~al.}, ``{MICRO'47 Conference Site},'' 2014. Available:
-  \url{http://www.microarch.org/micro47/}
-\BIBentrySTDinterwordspacing
+\bibitem{basheer2000artificial}
+I.~Basheer and M.~Hajmeer, ``Artificial neural networks: fundamentals,
+  computing, design, and application,'' \emph{Journal of microbiological
+  methods}, vol.~43, no.~1, pp. 3--31, 2000.
 
 \end{thebibliography}

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.1)  1 APR 2015 19:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.1)  1 APR 2015 20:31
 entering extended mode
-**D:/Dropbox/WORK/2015/15_HMC/15_HMC_Tex/template.tex
-(D:/Dropbox/WORK/2015/15_HMC/15_HMC_Tex/template.tex
+**C:/Users/Duckhwan/Desktop/15_HMC_TeX/template.tex
+(C:/Users/Duckhwan/Desktop/15_HMC_TeX/template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +13,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex\jpaper.cls
+(C:\Users\Duckhwan\Desktop\15_HMC_TeX\jpaper.cls
 Document Class: jpaper 2012/04/23 Micro submission template
-(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex\etoolbox.sty
+(C:\Users\Duckhwan\Desktop\15_HMC_TeX\etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
@@ -275,7 +275,7 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -295,7 +295,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
@@ -323,7 +323,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\svgnam.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
 File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
@@ -369,13 +369,13 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks20
 ))
-(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex\couriers.sty
+(C:\Users\Duckhwan\Desktop\15_HMC_TeX\couriers.sty
 Package: couriers 2004/07/10 Scaled Courier (HS) 
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks21
 \MT@count=\count91
@@ -384,8 +384,7 @@ LaTeX Info: Redefining \textls on input line 766.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count92
 
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex.
-def
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
@@ -394,7 +393,7 @@ LaTeX Info: Redefining \lslig on input line 915.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
@@ -425,13 +424,13 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks22
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\titling\titling.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\titling\titling.sty"
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip47
 \thanksmargin=\skip48
 \droptitle=\skip49
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\abstract\abstract.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\abstract\abstract.sty"
 Package: abstract 2009/06/08 v1.2a configurable abstracts
 \abstitleskip=\skip50
 \absleftindent=\skip51
@@ -439,7 +438,7 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 \absparindent=\skip53
 \absparsep=\skip54
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip55
@@ -457,7 +456,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks24
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip58
 \enit@outerparindent=\dimen119
@@ -465,10 +464,10 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box27
 \enitdp@description=\count96
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen120
@@ -481,7 +480,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 )
 \c@ContinuedFloat=\count97
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count98
 \sf@farskip=\skip59
@@ -522,7 +521,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen128
 \Gin@req@width=\dimen129
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen130
 \lightrulewidth=\dimen131
@@ -619,7 +618,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count113
 
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -665,7 +664,7 @@ Now handling font encoding PU ...
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 197.
 
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\siunits\SIunits.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\siunits\SIunits.sty"
 Package: SIunits 2007/12/02 v1.36 Support for the International System of units
  (MH)
 
@@ -755,9 +754,9 @@ File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks28
 \ex@=\dimen148
 ))
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\siunits\SIunits.cfg)
+("C:\Program Files\MiKTeX 2.9\tex\latex\siunits\SIunits.cfg")
 Option `squaren' provided!
-)) (C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\ulem\ulem.sty
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
 \UL@box=\box30
 \UL@hyphenbox=\box31
 \UL@skip=\skip66
@@ -769,7 +768,7 @@ Option `squaren' provided!
 Package: ulem 2012/05/18
 \ULdepth=\dimen151
 )
-(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex\template.aux)
+(C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -798,7 +797,7 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 5.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count121
 \scratchdimen=\dimen152
@@ -823,7 +822,7 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-ptm.cfg
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-ptm.cfg"
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 *geometry* driver: auto-detecting
@@ -879,8 +878,8 @@ LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
 
-(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex\template.out)
-(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex\template.out)
+(C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.out)
+(C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.out)
 \@outlinefile=\write3
 
 Option `squaren' provided! 
@@ -927,7 +926,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 
-(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-eur.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-eur.cfg"
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
 
@@ -936,74 +935,42 @@ LaTeX Warning: No \author given.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 60.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
-
-Overfull \hbox (10.17606pt too wide) in paragraph at lines 84--116
- [][] 
- []
-
-LaTeX Font Info:    Try loading font information for T1+phv on input line 116.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.32993pt on input line 116.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `phv' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 116.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.32993pt on input line 116.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[1{C:/Users/dkim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
-(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex\template.bbl
-Underfull \vbox (badness 6445) has occurred while \output is active []
-
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
+(C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex\template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+ (C:\Users\Duckhwan\Desktop\15_HMC_TeX\template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 5F9E05B8AD9EC230F87FEB209B40D5AC;1814.
+(rerunfilecheck)             Checksum: ACB54732307E15E3348B7E406D415FA1;1501.
  ) 
 Here is how much of TeX's memory you used:
- 14591 strings out of 493921
- 213279 string characters out of 3147286
- 336836 words of memory out of 3000000
- 17531 multiletter control sequences out of 15000+200000
- 64202 words of font info for 169 fonts, out of 3000000 for 9000
+ 14406 strings out of 493921
+ 210084 string characters out of 3147274
+ 333836 words of memory out of 3000000
+ 17434 multiletter control sequences out of 15000+200000
+ 47922 words of font info for 105 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,10n,40p,813b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,9n,40p,811b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
-8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on template.pdf (2 pages, 78357 bytes).
+s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on template.pdf (1 page, 50774 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 42065 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 65 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 34377 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.1)  2 APR 2015 16:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.1)  3 APR 2015 00:54
 entering extended mode
-**C:/Users/Duckhwan/Dropbox/WORK/2015/15_HMC_TeX_Alienware/template.tex
-(C:/Users/Duckhwan/Dropbox/WORK/2015/15_HMC_TeX_Alienware/template.tex
+**D:/Dropbox/WORK/2015/15_HMC/15_HMC_Tex_Desktop/template.tex
+(D:/Dropbox/WORK/2015/15_HMC/15_HMC_Tex_Desktop/template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +13,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\jpaper.cls
+(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex_Desktop\jpaper.cls
 Document Class: jpaper 2012/04/23 Micro submission template
-(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\etoolbox.sty
+(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex_Desktop\etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
@@ -275,7 +275,7 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -295,7 +295,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
@@ -323,7 +323,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\svgnam.def
 File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
@@ -369,13 +369,13 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks20
 ))
-(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\couriers.sty
+(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex_Desktop\couriers.sty
 Package: couriers 2004/07/10 Scaled Courier (HS) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks21
 \MT@count=\count91
@@ -384,7 +384,8 @@ LaTeX Info: Redefining \textls on input line 766.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count92
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex.
+def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
@@ -393,7 +394,7 @@ LaTeX Info: Redefining \lslig on input line 915.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
@@ -424,13 +425,13 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks22
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\titling\titling.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\titling\titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip47
 \thanksmargin=\skip48
 \droptitle=\skip49
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\abstract\abstract.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\abstract\abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
 \abstitleskip=\skip50
 \absleftindent=\skip51
@@ -438,7 +439,7 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 \absparindent=\skip53
 \absparsep=\skip54
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip55
@@ -456,7 +457,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks24
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip58
 \enit@outerparindent=\dimen119
@@ -464,10 +465,10 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box27
 \enitdp@description=\count96
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen120
@@ -480,7 +481,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 )
 \c@ContinuedFloat=\count97
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count98
 \sf@farskip=\skip59
@@ -521,7 +522,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen128
 \Gin@req@width=\dimen129
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen130
 \lightrulewidth=\dimen131
@@ -618,7 +619,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count113
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -664,7 +665,7 @@ Now handling font encoding PU ...
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 197.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\siunits\SIunits.sty"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\siunits\SIunits.sty
 Package: SIunits 2007/12/02 v1.36 Support for the International System of units
  (MH)
 
@@ -754,9 +755,9 @@ File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks28
 \ex@=\dimen148
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\siunits\SIunits.cfg")
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\siunits\SIunits.cfg)
 Option `squaren' provided!
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+)) (C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\ulem\ulem.sty
 \UL@box=\box30
 \UL@hyphenbox=\box31
 \UL@skip=\skip66
@@ -768,51 +769,147 @@ Option `squaren' provided!
 Package: ulem 2012/05/18
 \ULdepth=\dimen151
 )
-(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
+Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count121
+\calc@Bcount=\count122
+\calc@Adimen=\dimen152
+\calc@Bdimen=\dimen153
+\calc@Askip=\skip67
+\calc@Bskip=\skip68
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count123
+\calc@Cskip=\skip69
+)
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip70
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen154
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count124
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count125
+\leftroot@=\count126
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count127
+\DOTSCASE@=\count128
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box33
+\strutbox@=\box34
+\big@size=\dimen155
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count129
+\c@MaxMatrixCols=\count130
+\dotsspace@=\muskip11
+\c@parentequation=\count131
+\dspbrk@lvl=\count132
+\tag@help=\toks30
+\row@=\count133
+\column@=\count134
+\maxfields@=\count135
+\andhelp@=\toks31
+\eqnshift@=\dimen156
+\alignsep@=\dimen157
+\tagshift@=\dimen158
+\tagwidth@=\dimen159
+\totwidth@=\dimen160
+\lineht@=\dimen161
+\@envbody=\toks32
+\multlinegap=\skip71
+\multlinetaggap=\skip72
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count136
+\l_MT_multwidth_dim=\dimen162
+\origjot=\skip73
+\l_MT_shortvdotswithinadjustabove_dim=\dimen163
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen164
+\l_MT_above_intertext_sep=\dimen165
+\l_MT_below_intertext_sep=\dimen166
+\l_MT_above_shortintertext_sep=\dimen167
+\l_MT_below_shortintertext_sep=\dimen168
+)
+(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex_Desktop\template.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 11.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 5.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 11.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen152
-\scratchbox=\box33
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen153
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count137
+\scratchdimen=\dimen169
+\scratchbox=\box35
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen170
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks35
 )
-\big@size=\dimen154
-LaTeX Info: Redefining \microtypecontext on input line 5.
+LaTeX Info: Redefining \microtypecontext on input line 11.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -822,7 +919,7 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-ptm.cfg"
+ (C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 *geometry* driver: auto-detecting
@@ -864,30 +961,30 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 5.
+\AtBeginShipoutBox=\box36
+Package hyperref Info: Link coloring ON on input line 11.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count127
+\c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 
-(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.out)
-(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.out)
+(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex_Desktop\template.out)
+(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex_Desktop\template.out)
 \@outlinefile=\write3
 
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 12.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 12
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 18
 .
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -896,83 +993,141 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 12
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 18
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 12
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 18
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 12
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 18
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 12.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 18.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-eur.cfg"
+(C:\Users\dkim\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
 
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 66.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+Package epstopdf Info: Source file: <fig/Full_system_MLP_ver2.eps>
+(epstopdf)                    date: 2015-04-02 23:42:16
+(epstopdf)                    size: 1027182 bytes
+(epstopdf)             Output file: <fig/Full_system_MLP_ver2-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-04-02 23:56:24
+(epstopdf)                    size: 23252 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Full_system_MLP_ver2-ep
+s-converted-to.pdf fig/Full_system_MLP_ver2.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
+<fig/Full_system_MLP_ver2-eps-converted-to.pdf, id=81, 695.59875pt x 329.23pt>
+File: fig/Full_system_MLP_ver2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/Full_system_MLP_ver2-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Full_system_MLP_ver2-eps-converted-to.pdf used on 
+input line 100.
+(pdftex.def)             Requested size: 252.94499pt x 119.71832pt.
+
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 101.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.32993pt on input line 101.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.32993pt on input line 101.
+ [1{C:/Users/dkim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <D:/Dropbox/WORK/2015/15_HMC/15_HMC_Tex_Desktop/fig/Full_system_MLP_ver2-eps-c
+onverted-to.pdf>]
+
+LaTeX Warning: Command \textquoteleft invalid in math mode on input line 142.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 142.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 \T1/ptm/m/n/10 (+20) Processor-in-Memory (PIM) de-sign hmc in-tro-duce
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+[2] [3
+
+] (D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex_Desktop\template.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+ [4
 
 
 ]
-(C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
 
-[2
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
- (C:\Users\Duckhwan\Dropbox\WORK\2015\15_HMC_TeX_Alienware\template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+(D:\Dropbox\WORK\2015\15_HMC\15_HMC_Tex_Desktop\template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 7FA490C3F1C4298ACAEAE1E4C64AC9D1;3132.
+(rerunfilecheck)             Checksum: 550F6B47E172D012DCED9900BC603F16;3289.
  ) 
 Here is how much of TeX's memory you used:
- 14383 strings out of 493921
- 209911 string characters out of 3147274
- 333836 words of memory out of 3000000
- 17397 multiletter control sequences out of 15000+200000
- 39293 words of font info for 90 fonts, out of 3000000 for 9000
+ 15819 strings out of 493921
+ 231605 string characters out of 3147286
+ 361400 words of memory out of 3000000
+ 18684 multiletter control sequences out of 15000+200000
+ 65057 words of font info for 183 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,9n,40p,831b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,9n,40p,1196b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on template.pdf (2 pages, 58225 bytes).
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helv
+etic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on template.pdf (4 pages, 126198 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 28297 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 38038 words of extra memory for PDF output out of 42996 (max. 10000000)
 

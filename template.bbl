@@ -26,4 +26,24 @@ I.~Basheer and M.~Hajmeer, ``Artificial neural networks: fundamentals,
   computing, design, and application,'' \emph{Journal of microbiological
   methods}, vol.~43, no.~1, pp. 3--31, 2000.
 
+\bibitem{chua2002cellular}
+L.~O. Chua and T.~Roska, \emph{Cellular neural networks and visual computing:
+  foundations and applications}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Cambridge University Press, 2002.
+
+\bibitem{chua1988cellular}
+L.~O. Chua and L.~Yang, ``Cellular neural networks: Applications,''
+  \emph{Circuits and Systems, IEEE Transactions on}, vol.~35, no.~10, pp.
+  1273--1290, 1988.
+
+\bibitem{egmont2002image}
+M.~Egmont-Petersen, D.~de~Ridder, and H.~Handels, ``Image processing with
+  neural networks—a review,'' \emph{Pattern recognition}, vol.~35, no.~10,
+  pp. 2279--2301, 2002.
+
+\bibitem{hopfield1984neurons}
+J.~J. Hopfield, ``Neurons with graded response have collective computational
+  properties like those of two-state neurons,'' \emph{Proceedings of the
+  national academy of sciences}, vol.~81, no.~10, pp. 3088--3092, 1984.
+
 \end{thebibliography}

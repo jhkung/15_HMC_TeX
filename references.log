@@ -1,0 +1,157 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2015.4.2)  2 APR 2015 23:57
+entering extended mode
+**D:/Dropbox/WORK/2015/15_HMC/15_HMC_Tex_Desktop/references.bib
+(D:/Dropbox/WORK/2015/15_HMC/15_HMC_Tex_Desktop/references.bib
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2   CTLuse_
+             forced_etal = {no},
+? 
+! Extra }, or forgotten $.
+l.3 }
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.4 
+    
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.6   CTLdash_
+              repeated_names = {no},
+? 
+! Extra }, or forgotten $.
+l.7 }
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.8 
+    
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.10   CTLname_
+               url_prefix = {Available: },
+? 
+! Extra }, or forgotten $.
+l.11 }
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.12 
+     
+? 
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+
+Overfull \hbox (22.85614pt too wide) in paragraph at lines 39--66
+\tenrm put-ing: foun-da-tions and ap-pli-ca-tions, au-thor=Chua, Leon O and Ros
+ka, Tamas, year=2002, pub-lisher=Cambridge|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm p
+.\tenrm u
+.\tenrm t
+.\discretionary
+..\tenrm -
+.\tenrm i
+.etc.
+
+
+Overfull \hbox (28.46817pt too wide) in paragraph at lines 39--66
+\tenrm Uni-ver-sity Press  @ar-ti-cleeg-mont2002image, ti-tle=Image pro-cess-in
+g with neu-ral net-worksa re-view, author=Egmont-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm U
+.\tenrm n
+.\tenrm i
+.\discretionary
+..\tenrm -
+.\tenrm v
+.etc.
+
+! Undefined control sequence.
+l.86     title     = "{\LaTeX
+                             : A Document Preparation System}",
+? 
+)
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+! Emergency stop.
+<*> 
+    
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

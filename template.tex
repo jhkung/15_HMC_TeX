@@ -2,10 +2,16 @@
 
 \usepackage[normalem]{ulem}
 
+% Packages
+\usepackage{epstopdf}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+
 \begin{document}
 
 \title{NeuroCube: Low-Power Reconfigurable Neuromorphic Architecture Using Hybrid Memory Cube}
-%\author{Emre Ozer & Thomas F. Wenisch}
+
 
 \date{}
 \maketitle
@@ -18,7 +24,7 @@ We provide some guidelines that authors should follow when submitting papers to
 the conference.
 \end{abstract}
 
-\section{Introduction}
+\section{Introduction}\label{sec:Introduction}
 
 THIS PART IS FOR INTRODUCTION
 
@@ -54,15 +60,31 @@ THIS PART IS FOR INTRODUCTION
 %All questions regarding paper formatting and submission should be directed to
 %the program chair.
 
-\section{Previous Work}
-In this section, we will introduce recent machine learning techniques using different types of neural network and hardware implemenation based on ASIC or FPGA. 
+\section{Previous Work}\label{sec:Previous works}
+In this section, we will introduce recent machine learning techniques using different types of neural network and hardware implementation based on ASIC or FPGA. 
 
-\subsection{Neural network for machine learning} 
-1. Why do we need different NNs other than Convolutional NNs?
+\subsection{Neural network for machine learning} \label{sub_sec:Previous works algorithm}
+Artificial Neural network (neural network) which mimics biological neural networks is the most interested topic in machine learning. It is composed of set of neurons and a single neuron may connect to set of other neuron or all neurons in the network. This network could be composed of multiple layers --> Deep NN?
 
-2. How can we classify different NNs.
+% How can we classify different NNs.
+Main benefits of Neural network are the characteristic of computation process in biological neural network, such as parallelism, nonlinearity, error-robustness, and learning (plasticity). Therefore neural networks can be classified based on these different characteristics \cite{basheer2000artificial}. According to Section 6 in \cite{basheer2000artificial}, neural network can be classified based on different characteristics such as target application, connectivity, flow of network. In terms of hardware design for neural network, we should note that connectivity and flow of network are most important factors of neural network since these factors are directly related to the interface in the system (for example, bus-interface or network-on-chip (NoC)). 
 
-According to \cite{basheer2000artificial}, neural network can be classified based on differernt characteristics.
+\textbf{Connectivity}
+
+A single neuron can connect with all neurons in the network or set of neurons. Hopfiled network is the network with fully connected two layers \cite{hopfield1984neurons}. Full connectivity means outputs of all neurons (including itself) are fed into as input to a single neuron. Due to its complexity of network, it is impractical to implement in real hardware. 
+% Is there any benefit in Hopfield Network thanks to fully connection?
+
+In stead of fully connection, cellular neural network has local connection; a single neuron connects to the set of neurons in the neighborhood \cite{chua1988cellular}. A single neuron is connected with \begin{math} (2r+1)^2 \end{math} neurons when radius of neighborhood is \begin{math}r\end{math}. For simple image processing (such as edge detection\cite{chua2002cellular}, garbor filter \cite{egmont2002image}), \begin{math} r=1\end{math} is enough and \begin{math} r=3\end{math} is still enough for associative memory operation (reference is required).
+
+\textbf{Network flow}
+
+
+
+
+
+
+
+1. Why do we need different NNs other than Convolution NNs? --> Deep learning requires `different' type of neural network layers
 
 
 3. What is the characteristic of diff. NNs (pro - cons) or appropriate application
@@ -70,24 +92,81 @@ According to \cite{basheer2000artificial}, neural network can be classified base
 Can we compute number of basic computations such as multiplications or additions for some applications? 
 
 Maybe table to compare diff NNs will be good.
-\subsection{Neuromorphic hardware implementation}
+\subsection{Neuromorphic hardware implementation}\label{sub_sec:Previous works hardware}
 text
 
+\begin{figure}[!t]
+\centering
+\includegraphics[width=3.5in]{fig/Full_system_MLP_ver2.eps}
+\caption{Full system MLP ver2 from 15-DAC.}
+\label{fig:MLP_system}
+\end{figure}
 
-\section{Reconfigurable Neuromorphic Architecture}
+
+\section{Reconfigurable Neuromorphic Architecture}\label{sec:architecture}
 text
-\subsection{External memory}
+\subsection{External memory}\label{sub_sec:ext_mem}
 text
-\subsection{Cache memory}
-text
-\subsection{Processing elements}
+\subsection{Cache memory}\label{sub_sec:cache_mem}
+cache memory
+
+\subsection{Processing elements}\label{sub_sec:pe}
 As we explained before, main basic operations for NNs are multiplication, addition, activation function, sampling ... So we will prepare all functions to cover different neural networks. Then controlling the data from memory to processing elements can implement different neural networks.
-\subsection{Network-on-chip}
+\subsection{Network-on-chip}\label{sub_sec:noc}
 text
+
+\subsection{Memory architecture}\label{sub_sec:mem_arch}
+As stated in Section \ref{sub_sec:Previous works hardware}, we design the digital MLP hardware fully utilizing MAC units. To make the MLP hardware scalable to larger network size, the on-chip cache memories should interface with an external DRAM memory (Fig.~\ref{fig:MLP_system}). However, the DRAM access latency sacrifices the parallelism provided by MLP algorithm. We have to choose the maximum number of MAC units in each PE at design time depending on the memory architecture to achieve full utilization.
+To begin with, the read latency of DRAM can be defined as (MLP operation is read-intensive, thus, we focus on the read latency):
+
+%DRAM_{lat} = tRCD + tCAS + tRP + \floor[\bigg]{\frac{\left(\frac{page\_size}{bit\_width_{bus}}-1\right)}{2}},
+\begin{equation}
+	DRAM_{lat} = tRCD + tCAS + tRP + \floor[\bigg]{\left(\frac{page\_size}{bit\_width_{bus}}-1\right)/2},
+	\label{eq:DRAM_LAT}
+\end{equation}
+
+where $tRCD$ is the number of clocks required to access each row, $tCAS$ is the column access latency, and $tRP$ is the required clocks between row precharge and activate. Each parameter in (\ref{eq:DRAM_LAT}) is determined by the specification of the external memory. Also, we assume that the burst length can be modified to read the whole page after a single row access (since MLP has a memory access pattern with strong spatial coherence) with low column access latency. Let’s consider we have an external memory which can be accessed at $f_{DRAM}$ (= $1/CLK_{DRAM}$). Here, $CLK_{DRAM}$ represents the DRAM I/O bus clock cycle. We then choose PE to operate at $f_{PE}$ and SRAM memories to operate at $f_{SRAM}$. Then, $DRAM_{lat}$ can be rewritten by using $f_{PE}$.
+
+\begin{equation}
+	DRAM_{lat\-PE} = DRAM_{lat} \times \frac{f_{PE}}{f_{DRAM}}.
+	\label{eq:DRAM_LAT_PE}
+\end{equation}
+
+As shown in Fig.~\ref{fig:MLP_system}, the half of the cache (equivalent to the page size of DRAM) has to be initially filled up to fetch in the data into each PE (a group of MAC units) in parallel. The 8Byte is the data size required at each MAC unit for matrix-vector multiplication. After initialization, each cache is updated with round-robin scheduling in parallel with the data read from the cache to PE (Fig.~\ref{fig:MLP_system}). To achieve the full utilization, the following condition has to be satisfied.
+
+\begin{equation}
+	\frac{\#Lines}{m}=DRAM_{lat\-PE}\times n,
+	\label{eq:num_lines_per_PE}
+\end{equation}
+
+where m is the number of MAC units in a PE, n is the number of PEs, and \#Lines is the (page\_size/word\_size). The left-hand side of (\ref{eq:num_lines_per_PE}) defines the clock cycles to use all data stored in the half portion (shaded) of the cache. The right-hand side of (\ref{eq:num_lines_per_PE}) represents the clock cycles to prepare data for all PEs connected to each channel (filling up the other half).\textit{ Equation (\ref{eq:num_lines_per_PE}) determines the total number of MAC units \begin{math}(n\times m)\end{math} that can be designed without sacrificing the full utilization.} The question then arises how to set the number of MAC units per PE (= $‘m’$). This is determined by the clock frequency ratio between the cache and the PE ($f_{SRAM}/ f_{PE}$). At each $CLK_{SRAM}$, the cache provides 8B data to the buffer. This may be continued for $k\times CLK_{SRAM}$, which allows total 8kB for a PE to use at one $CLK_{PE}$ (If the frequency ratio is 4, then the data size the cache can provide within one $CLK_{PE}$ becomes 32B). Thus, the number of MAC units per PE is constrained by
+
+\begin{equation}
+	m=\frac{f_{SRAM}}{f_{PE}}=\frac{CLK_{PE}}{CLK_{SRAM}},
+	\label{eq:num_m}
+\end{equation}
+
+This relation naturally leads to the decision of the number of PEs, $n$. Since the total number of MAC units is determined by (\ref{eq:num_lines_per_PE}), sets of $(m, n)$ can be obtained. Here, as reducing the number of cache memories results in smaller area and lower power, selecting smaller $n$ is a better design option with a given memory architecture. This is for one channel case so the total number of MAC units $(NUM_{MAC})$ with multi-channel memory becomes:
+
+\begin{equation}
+	NUM_{MAC}=\#Channel\times(n\times m).
+	\label{eq:num_mac}
+\end{equation}
+
+
+
+
+
+
+
+
+
 
 
 \section{Traffic Analysis on Network-on-Chip}
 For different neural networks, our system described in previous sesction is simulated to operate given testcase for each neural network. For this system, standard DDR3-SDRAM (low bandwidth specification) is assumed as external DRAM.
+
+
 
 
 \section{Hybrid Memory Cube}
@@ -112,8 +191,7 @@ bla bla bla \cite{basheer2000artificial}.
 
 
 %%% MICRO: Max 11 Pages without Reference. There is no limit for Reference
-\pagebreak
-
+\clearpage
 \bstctlcite{bstctl:etal, bstctl:nodash, bstctl:simpurl}
 \bibliographystyle{IEEEtranS}
 \bibliography{references}
@@ -122,6 +200,13 @@ bla bla bla \cite{basheer2000artificial}.
 
 
 
+
+%%% FIGURE
+%\begin{figure}[!t]
+%\centering\includegraphics[width=4.8in]{figs/tm_pl_orig.pdf}
+%\caption{Setup and hold time constraints of pulsed latch circuits.}
+%\label{fig: timing_pl_orig}
+%\end{figure}
 
 
 
@@ -135,6 +220,9 @@ bla bla bla \cite{basheer2000artificial}.
 
 %References must include complete author lists to facilitate
 %the reviewing process.	
+
+
+
 
 
 %If you are using \LaTeX~to typeset your paper, then we suggest

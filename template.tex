@@ -10,7 +10,7 @@
 
 \begin{document}
 
-\title{NeuroCube: Low-Power Reconfigurable Neuromorphic Architecture Using Hybrid Memory Cube}
+\title{NeuroCube: Low-Power Scalable Neuromorphic Architecture Using Hybrid Memory Cube}
 
 
 \date{}
@@ -30,15 +30,37 @@ THIS PART IS FOR INTRODUCTION
 
 1. Machine Learning is important application in RMS (Recognition/Mining/Synthesis)
 
-2. However, it's impossible to operate current ML techniques in embedded system due to massive computation
+2. Since its application scope increases and handle the big data, input domain and complexity increases dramatically
 
-3. As demands for ML in embedded system such as IoT/Mobile platform increases, low-power and high power-efficiency ML is required
+3. NN is one of the well known algorithms for ML, and large scale of NN is required to solve complex ML problem.
 
-4. Therefore, Specific Architecture for ML is required which is better than General Purpose Micro-Arch such as CUDA
+4. Large scale NN means more neurons, more layers, and more weight. Therefore, it requires massive computations and data storage
 
-5. Deep Learning Network: compsed of multiple different type of NN is powerful tool in ML
+5. For given hardware, there are two methods to solve this problem.
 
-6. To operated diff. NNs with single ASIC, Reconfigurbility is important in Neuromorphic Architecture
+5-1. First method is algorithm multiplexing, which divides the problem into sub-problems, and conquer them. It's hardware overhead/requirement is low, but it can't solve the problem requiring global optimization, for example, hole filling.
+
+5-2. Another method, which we adapt, storing all neural network in 'external' memory, which can have high capacity with long latency and share some computational units in given hardware.
+
+6. Interesting part is that operation of neural network is determined by data access sequence of memory since most of digital NNs are based on similar operations such as multiply-and-accumulate or sigmoid function. Therefore changing the data access sequency can implements different neural networks with given hardware.
+
+7. Since entire neural network is stored in memory, accessing memory is the key operation in neural network. 
+
+8. Based on given neural network, data sequence is not random sequence, but it is predetermined by algorithm. Therefore, dedicated memory controller generating data request and address can be implemented for each neural entwork. This controller is the key element for neural network function. 
+
+9. This controller will make memory deliver the data to multiple processing engines without request to operate multiple PEs in parallel without stall due to memory access (full utilization).
+
+10. For the application requiring sharing the data between PEs, network-on-chip is required to connect multiple PEs and multiple Memory. As data sequence is determined by neural network type, network traffic is also determined by neural network.
+
+11. In this paper, we will investigate architecture for digital neuromorphic hardware including multiple processing engines, cache memory, network-on-chip, external memory, and memory controller.
+
+12. Under the given external memory and processing engines, optimal number of cache memory and processing engines  will be studied to maintail full utilization of PEs.
+
+13. For different NNs, memory controller is implemented, and its perforamnce will be analyzed for different applications. 
+
+14. With given architecture, network traffic pattern on NoC will be studied and performance of entier system will be discussed.
+
+15. To achieve high external memory bandwidth, hybrid memory cube could be appropriate system for neuromorphic architecture. Its advantage will be analyzed for different NNs.
 
 
 %This document provides the formatting instructions for submissions to the 47th
@@ -81,19 +103,24 @@ In stead of fully connection, cellular neural network has local connection; a si
 
 
 
-
-
-
 1. Why do we need different NNs other than Convolution NNs? --> Deep learning requires `different' type of neural network layers
 
-
-3. What is the characteristic of diff. NNs (pro - cons) or appropriate application
+2. What is the characteristic of diff. NNs (pro - cons) or appropriate application
 
 Can we compute number of basic computations such as multiplications or additions for some applications? 
 
 Maybe table to compare diff NNs will be good.
+
+\subsection{Algorithm multiplexing} \label{sub_sec:alg_mux}
+Describe algorithm multiplexing
+
+\subsection{Hardware sharing?} \label{sub_sec:hw_share}
+Describe hardware sharing and compare with algorithm multiplexing
+
 \subsection{Neuromorphic hardware implementation}\label{sub_sec:Previous works hardware}
-text
+Following hardware sharing
+
+
 
 \begin{figure}[!t]
 \centering
